@@ -1,0 +1,43 @@
+
+
+Write All Life Cycle Methods in Execution Sequence
+2. Output of this Programme
+var x = 10;
+console.log(x);
+setTimeout(()=>{
+  x = x + 10;
+  console.log(x);
+})
+console.log(x);
+3. Difference between var , let and const
+4. Create a small form (login & Password) with the help of useState Hook
+
+
+Answer 1:
+component mounting:
+1.Constructor()
+2.state getderivedStatefrompops()
+3.render()
+4.component didMount()
+
+component updating
+1.staic getderivedStatefrompops
+2.should componentupdate()
+3.render()
+4.getsnapshotbeforeupdate()
+5.component unmount()
+
+component unmount
+componet willunmount.
+
+Answer 2:
+10
+20
+10
+
+Answer 3:
+
+let:it allow us to declare variable in function or block  level scope.
+var:it declare variable globely and it can access any time any where in the program.
+const: once it declare it can not be change, it will remain same through the program.But it array object it can be change.
+
